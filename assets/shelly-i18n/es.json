@@ -219,6 +219,7 @@
     "app.shelly-home.device-update.download.label": "Descargando firmware...",
 
 
-    "app.shelly-home.device-update-list.updating.label": "{{count}}/{{max}} dispositivos actualizados!"
+    "app.shelly-home.device-update-list.updating.label": "{{count}}/{{max}} dispositivos actualizados!",
+    "app.shelly-home.add-to-home.label": "Install Shelly Home"
     
 }

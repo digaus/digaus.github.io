@@ -219,5 +219,6 @@
     "app.shelly-home.device-update.download.label": "Firmwares werden heruntergeladen...",
 
 
-    "app.shelly-home.device-update-list.updating.label": "{{count}}/{{max}} Geräte aktualisiert!"
+    "app.shelly-home.device-update-list.updating.label": "{{count}}/{{max}} Geräte aktualisiert!",
+    "app.shelly-home.add-to-home.label": "Shelly Home installieren"
 }
