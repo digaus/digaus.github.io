@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    try {
+      
+      // Check if is on Mac
+      window.isMac = process.platform !== 'win32'; 
+    } catch(e) {
+      console.log(e);
+    }
+  </script>
+  <meta charset="utf-8"/>
+  <title>Ionic App</title>
+
+  <base href="./"/>
+
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="msapplication-tap-highlight" content="no"/>
+  <link rel="apple-touch-icon" href="assets/icon/favicon.png">
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png"/>
+
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+  <meta name="theme-color" content="#1976d2">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+<link rel="stylesheet" href="styles.940090ae65f0fdce887e.css"></head>
+
+<body>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.c44a8ce2eba462410445.js" defer></script><script src="polyfills-es5.632e73806a98b1c09ef6.js" nomodule defer></script><script src="polyfills.e03eddeb98dff1082859.js" defer></script><script src="scripts.2dad14299fe83d451cb5.js" defer></script><script src="main.078484f3af9a6654faae.js" defer></script></body>
+
+<script> 
+
+  try {
+  
+    window.sqlite3 = require('sqlite3');
+    // 1. Require the installed module
+    const customTitlebar = require('custom-electron-titlebar');
+    if (customTitlebar) {
+      // 2. Create the custom titlebar with your own settings
+      //    To make it work, we just need to provide the backgroundColor property
+      //    Other properties are optional.
+      let MyTitleBar = new customTitlebar.Titlebar({
+          backgroundColor: customTitlebar.Color.fromHex('#ffffff'),
+          shadow: true,
+      });
+      // 3. Update Titlebar text
+      MyTitleBar.updateTitle('Shelly Home');
+    }
+
+    window.getIP = function() {
+      var ifs = require('os').networkInterfaces();
+      var ip = Object.keys(ifs)
+        .map(x => ifs[x].filter(x => x.family === 'IPv4' && !x.internal)[0])
+        .filter(x => x)[0].address;
+        console.log(ip);
+      return ip;
+    }
+
+    window.startFileServer = function(path) {
+      var http = require('http');
+      try {
+        var staticServer = require('node-static');
+        var file = new staticServer.Server(path);
+        http.createServer(function (req, res) {
+          console.log(req)
+          file.serve(req, res);
+        }).listen(8080);
+      } catch(e) {
+        console.log(e);
+      }
+      return window.getIP();
+    }
+    
+  } catch(e) {
+    console.log(e)
+  //
+  }
+</script>
+</html>
