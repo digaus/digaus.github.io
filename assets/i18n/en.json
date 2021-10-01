@@ -1,0 +1,184 @@
+{
+     
+    "app.component.welcome.welcome.label": "Welcome!",
+    "app.component.welcome.welcome-text.label": "<b>Shelly Home</b> is a practical and free application for <b>Shelly</b> smart home devices. Please select your language to continue.",
+    "app.component.welcome.languages-missing.label": "Language not available? Help to integrate it!",
+
+    "app.component.welcome.creation.label": "Who created Shelly Home?",
+    "app.component.welcome.creation-text.label": "<b>Shelly Home</b> is a cross platform app created by the software developer <b>Dirk Gausmann</b>. It is developed in his free time and aims to bring a better user experience to <b>Shelly</b> users.",
+
+    "app.component.welcome.features.label": "What can Shelly Home do?",
+    "app.component.welcome.features-text.label": "<b>Shelly Home</b> is available on <b>Android, iOS, MacOS</b> and <b>Windows</b>. You can add, manage, update and control your <b>Shelly</b> devices aswell as highly customize how and what information you want to see.<br/>The app also does work without a user account and can directly access the <b>Shelly</b> devices located in the same network. Optionally the user can connect to its <b>Shelly Cloud</b> account, to be able to control the devices from anywhere.",
+
+    
+    "app.component.welcome.start.label": "Ready to start?",
+    "app.component.welcome.start-text.label": "Use <b>Shelly Home</b> with or without a <b>Shelly Cloud</b> account",
+
+    "app.component.welcome.skip-login.label": "Skip login",
+    "app.component.welcome.login.label": "Login",
+    "app.component.welcome.email.label": "E-Mail",
+    "app.component.welcome.password.label": "Password",
+
+    "app.component.dashboard.edit.header.label": "Customize dashboard",
+    "app.component.dashboard.reorder.header.label": "Reorder",
+    "app.component.dashboard.add-room.header.label": "Room",
+    "app.component.dashboard.add-group.header.label": "Group",
+    "app.component.dashboard.add-device.header.label": "Device",
+    "app.component.dashboard.add-dashboard.header.label": "Dashboard",
+    "app.component.dashboard.cancel.header.label": "Cancel",
+    "app.component.dashboard.empty.label": "Drag and drop elements here",
+    "app.component.dashboard.empty-list.label": "Please add a dashboard",
+
+    "app.component.more.donate.label": "Donate",
+    "app.component.more.system-theme.label": "System theme",
+    "app.component.more.dark-theme.label": "Dark theme",
+    "app.component.more.light-theme.label": "Light theme",
+    "app.component.more.add-devices.label" : "Include devices",
+    "app.component.more.search-devices.label" : "Search devices",
+    "app.component.more.update-devices.label": "Update devices",
+    "app.component.more.language.label" : "Language",
+	"app.component.more.report-error.label" : "Report a problem",
+	"app.component.more.report-error-body.label" : "Describe the problem and how you got there:",
+    "app.component.more.report-error-prompt.label" : "Please attach the error log from the document folder to the mail",
+
+    "app.component.more.backup.label": "Backup",
+    "app.component.more.backup.header.label": "Backup app data",
+    "app.component.more.backup-do.label": "Create backup",
+    "app.component.more.backup-load.label": "Load backup",
+    "app.component.more.cancel.label": "Cancel",
+    "app.component.more.backup-load-success.label": "Loaded backup successfully",
+    "app.component.more.backup-load-error.label": "Loading backup failed",
+    "app.component.more.backup-download-success.label": "Created backup successfully in document folder",
+    "app.component.more.backup-download-error.label": "Creating backup failed",
+
+    "app.component.add.confirm.label" : "Search and add device",
+    "app.component.add.network.header.label": "Wifi Network",
+    "app.component.add.network.label": "Network",
+    "app.component.add.password.label": "Password",
+
+    "app.component.roller-content.closed.label": "CLOSED",
+    "app.component.roller-content.open.label": "OPEN",
+
+    "app.component.device-status.device-con-list[local].label": "Local",
+    "app.component.device-status.device-con-list[cloud].label": "Cloud",
+    "app.component.device-status.device-con-list[sync].label": "Sync",
+    "app.component.device-status.device-con-list[offline].label": "Offline",
+    "app.component.device-status.device-con-list[locked].label": "Locked",
+    "app.component.device-status.device-con-list[updating].label": "Update",
+
+    "app.component.actions.add.label": "Create",
+    "app.component.actions.reorder.label": "Sort",
+
+    "app.component.device-add.mode.label": "Mode",
+    "app.component.device-add.name.label": "Name",
+    "app.component.device-add.room_id.label": "Room",
+    "app.component.device-add.relay_usage.label": "Usage",
+    "app.component.device-add.image.label": "Icon",
+    "app.component.device-add.no_room_cons.label": "Standlone consumption",
+
+    "app.component.device-add.cancel.label": "CANCEL",
+    "app.component.device-add.confirm.label": "CONFIRM",
+
+    "app.component.room-add.name.label": "Name",
+    "app.component.room-add.cancel.label": "CANCEL",
+    "app.component.room-add.confirm.label": "CONFIRM",
+
+    "app.component.group-add.name.label": "Name",
+    "app.component.group-add.devices.label": "Devices",
+    "app.component.group-add.cancel.label": "CANCEL",
+    "app.component.group-add.confirm.label": "CONFIRM",
+
+    "app.component.update.confirm.label": "Update devices",
+    "app.component.update.download.label": "Downloading firmwares",
+    "app.component.update.download-done.label": "Firmwares already downloaded",
+    "app.component.update.done.label": "Requests send, devices should now update",
+    "app.component.update.no-devices.label": "No local devices selected for updateing but firmwares are already downloaded",
+
+    "app.model.mode[relay].label": "Switch",
+    "app.model.mode[roller].label": "Roller",
+    "app.model.mode[sensor].label": "Sensor",
+    "app.model.mode[color].label": "Color",
+    "app.model.mode[white].label": "White",
+    "app.model.mode[emeter].label": "E-Meter",
+
+    "app.model.device-add.cancel.label": "CANCEL",
+    "app.model.device-add.confirm.label": "CONFIRM",
+
+    "app.model.relay_usage[outlet].label": "Outlet",
+    "app.model.relay_usage[light].label": "Light",  
+    
+    
+    "app.alert-service.dashboard.label": "Add dashboard",
+    "app.alert-service.cols.label": "Number of columns",
+    "app.alert-service.cancel.label": "CANCEL",
+    "app.alert-service.confirm.label": "CONFIRM",
+    "app.alert-service.login.label": "Login",
+    "app.alert-service.e-mail.label": "E-Mail",
+    "app.alert-service.password.label": "Password",
+    "app.alert-service.add-device-ssid.label": "Add device",
+    "app.alert-service.device-ssid.label": "SSID",
+    "app.alert-service.unlock.label": "Unlock {{ssid}}",
+    "app.alert-service.username.label": "Username",
+    "app.alert-service.logout.label": "Do you want to logout?",
+    "app.alert-service.delete-all.label": "Remove all {{deviceCount}} devices?",
+    "app.alert-service.delete.label": "Remove device?",
+
+    "app.auth-service.login-success.label": "Login successfull",
+    "app.auth-service.login-failed.label" : "Login failed!",
+    "app.auth-service.logout-success.label" : "Logout successful!",
+    "app.auth-service.control-failed.label" : "Device not available!",
+    "app.auth-service.wrong-credentials.label" : "Password or E-Mail wrong!",
+
+    "app.commons.cancel.label": "CANCEL",
+    "app.commons.confirm.label": "CONFIRM",
+    "app.commons.languages.label": "Languages",
+    "app.commons.languages[de].label": "Deutsch",
+    "app.commons.languages[en].label": "English",
+    
+    "app.component.app.login.label" : "Login",
+    "app.component.app.rooms.label" : "Rooms",
+    "app.component.app.groups.label" : "Groups",
+    "app.component.app.devices.label" : "Devices",
+    "app.component.app.menu.label" : "Menu",
+
+    "app.component.rooms.header.label": "Rooms",
+    "app.component.groups.header.label": "Groups",
+    "app.component.devices.header.label": "Devices",
+
+    "app.device-service.delete-failed.label": "Failed to delete device from cloud!",
+    "app.device-service.is-available-failed.label": "Failed to verify owner!",
+    "app.device-service.add-failed.label": "Failed to add device to cloud!",
+    "app.device-service.disable-cloud-failed.label": "Failed to disable cloud!",
+    "app.device-service.save-failed.label": "Failed to save device to cloud!", 
+    "app.device-service.add-bulk-failed.label": "Failed to add devices to cloud!",
+    "app.device-service.add-group-failed.label": "Failed to save group to cloud!",
+    "app.device-service.delete-group-failed.label": "Failed to delete group from cloud!",
+    "app.device-service.add-room-failed.label": "Failed to save room to cloud!",
+    "app.device-service.delete-room-failed.label": "Failed to delete room from cloud!",
+
+
+    "app.http-service.settings.control-error.label": "Failed to control device",
+    "app.http-service.settings.error.label": "Failed to change settings",
+    "app.http-service.settings.all.error.label": "Failed to change all settings",
+    "app.http-service.settings.success.label": "Settings updated successfully",
+    "app.http-service.update-device.success.label": "Device updated successfully",
+    "app.http-service.update-device.error.label": "Failed to update device",
+
+    "app.http-service.settings.fetch-error.label": "Failed to retrieve settings",
+
+    "app.http-service.add-room.success.label": "Room added successfully",
+    "app.http-service.add-room.error.label": "Failed to add room",
+    "app.http-service.update-room.success.label": "Room updated successfully",
+    "app.http-service.update-room.error.label": "Failed to update room",
+    "app.http-service.delete-room.success.label": "Room deleted successfully",
+    "app.http-service.delete-room.error.label": "Failed to delete room",
+
+    "app.http-service.add-group.success.label": "Group added successfully",
+    "app.http-service.add-group.error.label": "Failed to add group",
+    "app.http-service.update-group.success.label": "Group updated successfully",
+    "app.http-service.update-group.error.label": "Failed to update group",
+    "app.http-service.delete-group.success.label": "Group deleted successfully",
+    "app.http-service.delete-group.error.label": "Failed to delete group",
+    "app.http-service.fetch-settings.label": "Fetching device settings...",
+    "app.http-service.connecting-cloud.label": "Connecting device to cloud..."
+}

@@ -1,0 +1,188 @@
+{
+   
+    "app.component.welcome.languages-missing.label": "Sprache nicht verfügbar? Hilf mit diese zu integrieren!",
+   
+   
+    "app.component.welcome.welcome.label": "Willkommen!",
+    "app.component.welcome.welcome-text.label": "<b>Shelly Home</b> ist eine kostenlose und nützliche Anwendung für <b>Shelly</b> Smart Home Geräte. Bitte wählen sie zum Fortfahren eine Sprache.",
+    "app.component.welcome.languages.label": "Languages",
+
+    "app.component.welcome.creation.label": "Von wem ist Shelly Home?",
+    "app.component.welcome.creation-text.label": "<b>Shelly Home</b> ist eine Cross Platform App erstellt von dem Software Entwickler <b>Dirk Gausmann</b>. Die Anwendung wurde in seiner Freizeit entwickelt und zielt darauf ab, <b>Shelly</b> Nutzern eine bessere Benutzererfahrung zu bieten.",
+
+    "app.component.welcome.features.label": "Was kann Shelly Home?",
+    "app.component.welcome.features-text.label": "<b>Shelly Home</b> ist unter <b>Android, iOS, MacOS</b> und <b>Windows</b> verfügbar. Sie können Ihre <b>Shelly</b> Geräte hinzufügen, verwalten, aktualisieren und steuern sowie stark anpassen, wie und welche Informationen Sie anzeigen möchten. <br/> Die App funktioniert auch ohne Benutzerkonto und kann direkt auf die <b>Shelly</b> Geräte im selben Netzwerk zugreifen. Optional kann der Benutzer eine Verbindung zu seinem <b>Shelly Cloud</b> Konto herstellen, um die Geräte von überall aus zu steuern.",
+
+    "app.component.welcome.start.label": "Bereit zu starten?",
+    "app.component.welcome.start-text.label": "Nutze <b>Shelly Home</b> mit oder ohne eines <b>Shelly Cloud</b> Kontos",
+
+    "app.component.welcome.skip-login.label": "Login überspringen",
+    "app.component.welcome.login.label": "Login",
+    "app.component.welcome.email.label": "E-Mail",
+    "app.component.welcome.password.label": "Passwort",
+
+    "app.component.dashboard.edit.header.label": "Dashboard anpassen",
+    "app.component.dashboard.reorder.header.label": "Sortieren",
+    "app.component.dashboard.add-room.header.label": "Raum",
+    "app.component.dashboard.add-group.header.label": "Gruppe",
+    "app.component.dashboard.add-device.header.label": "Gerät",
+    "app.component.dashboard.add-dashboard.header.label": "Dashboard",
+    "app.component.dashboard.cancel.header.label": "Abbrechen",
+    "app.component.dashboard.empty.label": "Elemente mit Drag and Drop hinzufügen",
+    "app.component.dashboard.empty-list.label": "Füge ein Dashboard hinzu",
+
+    "app.component.more.donate.label": "Spenden",
+    "app.component.more.system-theme.label": "System Theme",
+    "app.component.more.dark-theme.label": "Dunkles Theme",
+    "app.component.more.light-theme.label": "Helles Theme",
+    "app.component.more.add-devices.label" : "Geräte einbinden",
+
+    "app.component.more.search-devices.label" : "Geräte suchen",
+    "app.component.more.update-devices.label": "Geräte aktualisieren",
+    "app.component.more.language.label" : "Sprache",
+	"app.component.more.report-error.label" : "Problem melden",
+    "app.component.more.report-error-body.label" : "Beschreibe kurz das Problem und wie es aufgetreten ist:",
+    "app.component.more.report-error-prompt.label": "Bitte den Fehler-Log aus dem Dokumenten Ordner der E-Mail anfügen",
+
+    "app.component.more.backup.label": "Backup",
+    "app.component.more.backup.header.label": "Backup der App Daten",
+    "app.component.more.backup-do.label": "Backup erstellen",
+    "app.component.more.backup-load.label": "Back laden",
+    "app.component.more.cancel.label": "Abbrechen",
+    "app.component.more.backup-load-success.label": "Backup erfolgreich geladen",
+    "app.component.more.backup-load-error.label": "Laden des Backups fehlgeschlagen",
+    "app.component.more.backup-download-success.label": "Backup erfolgreich im Dokumenten Ordner erstellt",
+    "app.component.more.backup-download-error.label": "Erstellen des Backups fehlgeschlagen",
+
+    "app.component.add.confirm.label" : "Gerät suchen und hinzufügen",
+    "app.component.add.network.header.label": "Wifi Netzwerk",
+    "app.component.add.network.label": "Netzwerk",
+    "app.component.add.password.label": "Passwort",
+
+    "app.component.roller-content.closed.label": "ZU",
+    "app.component.roller-content.open.label": "AUF",
+
+    
+    "app.component.device-status.device-con-list[local].label": "Lokal",
+    "app.component.device-status.device-con-list[cloud].label": "Cloud",
+    "app.component.device-status.device-con-list[sync].label": "Sync",
+    "app.component.device-status.device-con-list[offline].label": "Offline",
+    "app.component.device-status.device-con-list[locked].label": "Gesperrt",
+    "app.component.device-status.device-con-list[updating].label": "Update",
+
+    "app.component.device-add.mode.label": "Modus",
+    "app.component.device-add.name.label": "Name",
+    "app.component.device-add.room_id.label": "Räume",
+    "app.component.device-add.relay_usage.label": "Nutzungs-Typ",
+    "app.component.device-add.image.label": "Icon",
+    "app.component.device-add.no_room_cons.label": "Eigenständiger Verbrauch",
+
+    "app.component.device-add.cancel.label": "ABBRECHEN",
+    "app.component.device-add.confirm.label": "BESTÄTIGEN",
+
+    "app.component.room-add.name.label": "Name",
+    "app.component.room-add.cancel.label": "ABBRECHEN",
+    "app.component.room-add.confirm.label": "BESTÄTIGEN",
+
+    "app.component.group-add.name.label": "Name",
+    "app.component.group-add.devices.label": "Geräte",
+    "app.component.group-add.cancel.label": "ABBRECHEN",
+    "app.component.group-add.confirm.label": "BESTÄTIGEN",
+
+    "app.component.update.confirm.label": "Geräte aktualisieren",
+    "app.component.update.download.label": "Lade Firmwares herunter",
+    "app.component.update.download-done.label": "Firmwares sind bereits heruntergeladen",
+    "app.component.update.done.label": "Anfragen gesendet, Geräte sollten sich nun aktualisieren",
+    "app.component.update.no-devices.label": "Keine lokalen Geräte zum Aktualisieren ausgewählt aber Firmwares sind schon heruntergeladen",
+
+    "app.component.actions.add.label": "Hinzufügen",
+    "app.component.actions.reorder.label": "Sortieren",
+
+    "app.model.mode[relay].label": "Schalter",
+    "app.model.mode[roller].label": "Rolladen",
+    "app.model.mode[sensor].label": "Sensor",
+    "app.model.mode[color].label": "Farbe",
+    "app.model.mode[white].label": "Weiß",
+    "app.model.mode[emeter].label": "Stromsensor",
+
+    "app.model.relay_usage[outlet].label": "Steckdose",
+    "app.model.relay_usage[light].label": "Licht",
+    
+    "app.alert-service.dashboard.label": "Dashboard hinzufügen",
+    "app.alert-service.cols.label": "Anzahl Spalten",
+    "app.alert-service.cancel.label": "ABBRECHEN",
+    "app.alert-service.confirm.label": "BESTÄTIGEN",
+    "app.alert-service.login.label": "Anmelden",
+    "app.alert-service.e-mail.label": "E-Mail",
+    "app.alert-service.password.label": "Passwort",
+    "app.alert-service.add-device-ssid.label": "Gerät hinzufügen",
+    "app.alert-service.device-ssid.label": "SSID",
+    "app.alert-service.unlock.label": "Entsperre {{ssid}}",
+    "app.alert-service.username.label": "Nutzername",
+    "app.alert-service.logout.label": "Möchten Sie sich abmelden?",
+    "app.alert-service.delete-all.label": "Alle {{deviceCount}} Geräte entfernen?",
+    "app.alert-service.delete.label": "Gerät entfernen?",
+
+    "app.auth-service.login-success.label": "Erfolgreich angemeldet",
+    "app.auth-service.cloud-service.login-success.label" : "Erfolgreich angemeldet!",
+    "app.auth-service.cloud-service.login-failed.label" : "Anmeldung fehlgeschlagen!",
+    "app.auth-service.cloud-service.logout-success.label" : "Erfolgreich abgemeldet!",
+    "app.auth-service.cloud-service.wrong-credentials.label" : "Passwort oder E-Mail falsch!",
+
+    "app.commons.cancel.label": "ABBRECHEN",
+    "app.commons.confirm.label": "BESTÄTIGEN",
+    "app.commons.languages.label": "Sprache",
+    "app.commons.languages[de].label": "Deutsch",
+    "app.commons.languages[en].label": "English",
+
+    "app.component.app.login.label" : "Anmelden",
+    "app.component.app.rooms.label" : "Räume",
+    "app.component.app.groups.label" : "Gruppen",
+    "app.component.app.devices.label" : "Geräte",
+    "app.component.app.menu.label" : "Menü",
+
+    "app.component.rooms.header.label": "Räume",
+    "app.component.groups.header.label": "Gruppen",
+    "app.component.devices.header.label": "Geräte",
+
+    "app.device-service.delete-failed.label": "Gerät konnte nicht aus der Cloud gelöscht werden!",
+    "app.device-service.is-available-failed.label": "Besitzer konnte nicht verifiziert werden!",
+    "app.device-service.add-failed.label": "Gerät konnte nicht zur Cloud hinzugefügt werden!",
+    "app.device-service.disable-cloud-failed.label": "Cloud konnte nicht deaktiviert werden",
+    "app.device-service.save-failed.label": "Gerät konnte nicht in der Cloud gespeichert werden!", 
+    "app.device-service.add-bulk-failed.label": "Geräte konnten nicht zur Cloud hinzugefügt werden!",
+    "app.device-service.add-group-failed.label": "Gruppe konnte nicht in der Cloud gespeichert werden!",
+    "app.device-service.delete-group-failed.label": "Gruppe konnte nicht in der Cloud gelöscht werden!",
+    "app.device-service.add-room-failed.label": "Raum konnte nicht in der Cloud gespeichert werden!",
+    "app.device-service.delete-room-failed.label": "Gruppe konnte nicht in der Cloud gelöscht werden!",
+
+
+    "app.http-service.settings.control-error.label": "Geräte konnte nicht angesteuert werden",
+    "app.http-service.settings.error.label": "Einstellungen konnten nicht geändert werden",
+    "app.http-service.settings.all.error.label": "Es konnten nicht alle Einstellungen geändert werden",
+    "app.http-service.settings.success.label": "Einstellungen erfolgreich aktualisiert",
+    "app.http-service.settings.fetch-error.label": "Einstellungen konnten nicht abgerufen werden",
+
+    "app.http-service.update-device.success.label": "Gerät erfolgreich aktualisiert",
+    "app.http-service.update-device.error.label": "Geräte konnte nicht aktualisiert werden",
+
+    "app.http-service.add-room.success.label": "Raum erfolgreich hinzugefügt",
+    "app.http-service.add-room.error.label": "Raum konnte nicht hinzugefügt werden",
+    "app.http-service.update-room.success.label": "Raum erfolgreich aktualisiert",
+    "app.http-service.update-room.error.label": "Raum konnte nicht aktualisiert werden",
+    "app.http-service.delete-room.success.label": "Raum erfolgreich gelöscht",
+    "app.http-service.delete-room.error.label": "Raum konnte nicht gelöscht werden",
+
+    "app.http-service.add-group.success.label": "Gruppe erfolgreich hinzugefügt",
+    "app.http-service.add-group.error.label": "Gruppe konnte nicht hinzugefügt werden",
+    "app.http-service.update-group.success.label": "Gruppe erfolgreich aktualisiert",
+    "app.http-service.update-group.error.label": "Gruppe konnte nicht aktualisiert werden",
+    "app.http-service.delete-group.success.label": "Gruppe erfolgreich gelöscht",
+    "app.http-service.delete-group.error.label": "Gruppe konnte nicht aktualisiert werden",
+
+    "app.http-service.fetch-settings.label": "Einstellungen werden abgerufen...",
+    "app.http-service.connecting-cloud.label": "Verbinde Gerät mit der Cloud..."
+
+
+
+}

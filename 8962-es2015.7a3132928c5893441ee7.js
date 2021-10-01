@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkShellyHome=self.webpackChunkShellyHome||[]).push([[8962],{78962:function(e,n,u){u.r(n),u.d(n,{SplashScreenWeb:function(){return t}});var r=u(8239),s=u(68384);class t extends s.Uw{show(e){return(0,r.Z)(function*(){})()}hide(e){return(0,r.Z)(function*(){})()}}}}]);
