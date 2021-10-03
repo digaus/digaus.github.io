@@ -94,6 +94,10 @@
     "app.component.update.done.label": "Requests send, devices should now update",
     "app.component.update.no-devices.label": "No local devices selected for updateing but firmwares are already downloaded",
 
+    "app.component.customize.header.label": "Customize layout",
+
+    "app.component.graph.error.label": "Failed to load consumption data",
+
     "app.model.mode[relay].label": "Switch",
     "app.model.mode[roller].label": "Roller",
     "app.model.mode[sensor].label": "Sensor",

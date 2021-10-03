@@ -95,8 +95,9 @@
     "app.component.update.done.label": "Anfragen gesendet, Geräte sollten sich nun aktualisieren",
     "app.component.update.no-devices.label": "Keine lokalen Geräte zum Aktualisieren ausgewählt aber Firmwares sind schon heruntergeladen",
 
-    "app.component.actions.add.label": "Hinzufügen",
-    "app.component.actions.reorder.label": "Sortieren",
+    "app.component.customize.header.label": "Layout auswählen",
+
+    "app.component.graph.error.label": "Verbrauchsdaten konnten nicht geladen werden",
 
     "app.model.mode[relay].label": "Schalter",
     "app.model.mode[roller].label": "Rolladen",
