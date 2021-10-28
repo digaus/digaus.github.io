@@ -55,6 +55,9 @@
     "app.component.add.network.header.label": "Wifi Network",
     "app.component.add.network.label": "Network",
     "app.component.add.password.label": "Password",
+    "app.component.add.select-shelly.label": "Select Device",
+    "app.component.add.select-type.label": "Type",
+    "app.component.add.select-ssid.label": "SSID Prefix",
 
     "app.component.roller-content.closed.label": "CLOSED",
     "app.component.roller-content.open.label": "OPEN",
@@ -104,6 +107,7 @@
     "app.model.mode[color].label": "Color",
     "app.model.mode[white].label": "White",
     "app.model.mode[emeter].label": "E-Meter",
+    "app.model.mode[inputs_reader].label": "Input",
 
     "app.model.device-add.cancel.label": "CANCEL",
     "app.model.device-add.confirm.label": "CONFIRM",
@@ -111,10 +115,10 @@
     "app.model.relay_usage[outlet].label": "Outlet",
     "app.model.relay_usage[light].label": "Light",  
     
-    
     "app.alert-service.dashboard.label": "Add dashboard",
     "app.alert-service.cols.label": "Number of columns",
     "app.alert-service.cancel.label": "CANCEL",
+    "app.alert-service.remove.label": "REMOVE",
     "app.alert-service.confirm.label": "CONFIRM",
     "app.alert-service.login.label": "Login",
     "app.alert-service.e-mail.label": "E-Mail",
@@ -123,9 +127,10 @@
     "app.alert-service.device-ssid.label": "SSID",
     "app.alert-service.unlock.label": "Unlock {{ssid}}",
     "app.alert-service.username.label": "Username",
-    "app.alert-service.logout.label": "Do you want to logout?",
+    "app.alert-service.logout.label": "Do you want to remove this login account?",
     "app.alert-service.delete-all.label": "Remove all {{deviceCount}} devices?",
     "app.alert-service.delete.label": "Remove device?",
+    "app.alert-service.user.label": "User",
 
     "app.auth-service.login-success.label": "Login successfull",
     "app.auth-service.login-failed.label" : "Login failed!",
@@ -144,10 +149,22 @@
     "app.component.app.groups.label" : "Groups",
     "app.component.app.devices.label" : "Devices",
     "app.component.app.menu.label" : "Menu",
+    "app.component.app.sync-error.label" : "Error syncing data!",
+    "app.component.app.no-user.label": "No user",
+
+    "app.component.users.header.label": "User",
+    "app.component.users.empty-list.label": "No users available",
 
     "app.component.rooms.header.label": "Rooms",
+    "app.component.rooms.empty-list.label": "No rooms available",
+
     "app.component.groups.header.label": "Groups",
+    "app.component.groups.empty-list.label": "No groups available",
+
     "app.component.devices.header.label": "Devices",
+    "app.component.devices.empty-list.label": "No devices available",
+
+    "app.component.customize-graph.header.label": "Customize graph",
 
     "app.device-service.delete-failed.label": "Failed to delete device from cloud!",
     "app.device-service.is-available-failed.label": "Failed to verify owner!",
@@ -160,6 +177,14 @@
     "app.device-service.add-room-failed.label": "Failed to save room to cloud!",
     "app.device-service.delete-room-failed.label": "Failed to delete room from cloud!",
 
+
+    "app.http-service.disable-cloud.label": "Disconnecting device from the cloud...",
+    "app.http-service.disable-cloud.success.label": "Device successfully disconnected from the cloud",
+    "app.http-service.disable-cloud.error.label": "Failed to disconnect device from the cloud",
+
+    "app.http-service.enable-cloud.label": "Connecting device to cloud...",
+    "app.http-service.enable-cloud.success.label": "Device successfully connected to the cloud",
+    "app.http-service.enable-cloud.error.label": "Failed to connect device to the cloud",
 
     "app.http-service.settings.control-error.label": "Failed to control device",
     "app.http-service.settings.error.label": "Failed to change settings",

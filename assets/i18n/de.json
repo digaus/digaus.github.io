@@ -58,6 +58,9 @@
     "app.component.add.network.header.label": "Wifi Netzwerk",
     "app.component.add.network.label": "Netzwerk",
     "app.component.add.password.label": "Passwort",
+    "app.component.add.select-shelly.label": "Gerät wählen",
+    "app.component.add.select-type.label": "Typ",
+    "app.component.add.select-ssid.label": "SSID Prefix",
 
     "app.component.roller-content.closed.label": "ZU",
     "app.component.roller-content.open.label": "AUF",
@@ -99,12 +102,15 @@
 
     "app.component.graph.error.label": "Verbrauchsdaten konnten nicht geladen werden",
 
+    "app.component.customize-graph.header.label": "Graph anpassen",
+
     "app.model.mode[relay].label": "Schalter",
     "app.model.mode[roller].label": "Rolladen",
     "app.model.mode[sensor].label": "Sensor",
     "app.model.mode[color].label": "Farbe",
     "app.model.mode[white].label": "Weiß",
     "app.model.mode[emeter].label": "Stromsensor",
+    "app.model.mode[inputs_reader].label": "Eingabe",
 
     "app.model.relay_usage[outlet].label": "Steckdose",
     "app.model.relay_usage[light].label": "Licht",
@@ -113,6 +119,7 @@
     "app.alert-service.cols.label": "Anzahl Spalten",
     "app.alert-service.cancel.label": "ABBRECHEN",
     "app.alert-service.confirm.label": "BESTÄTIGEN",
+    "app.alert-service.remove.label": "ENTFERNEN",
     "app.alert-service.login.label": "Anmelden",
     "app.alert-service.e-mail.label": "E-Mail",
     "app.alert-service.password.label": "Passwort",
@@ -120,15 +127,16 @@
     "app.alert-service.device-ssid.label": "SSID",
     "app.alert-service.unlock.label": "Entsperre {{ssid}}",
     "app.alert-service.username.label": "Nutzername",
-    "app.alert-service.logout.label": "Möchten Sie sich abmelden?",
+    "app.alert-service.logout.label": "Möchten Sie diese Anmeldung entfernen?",
     "app.alert-service.delete-all.label": "Alle {{deviceCount}} Geräte entfernen?",
     "app.alert-service.delete.label": "Gerät entfernen?",
+    "app.alert-service.user.label": "Nutzer",
+
 
     "app.auth-service.login-success.label": "Erfolgreich angemeldet",
-    "app.auth-service.cloud-service.login-success.label" : "Erfolgreich angemeldet!",
-    "app.auth-service.cloud-service.login-failed.label" : "Anmeldung fehlgeschlagen!",
-    "app.auth-service.cloud-service.logout-success.label" : "Erfolgreich abgemeldet!",
-    "app.auth-service.cloud-service.wrong-credentials.label" : "Passwort oder E-Mail falsch!",
+    "app.auth-service.login-failed.label" : "Anmeldung fehlgeschlagen!",
+    "app.auth-service.logout-success.label" : "Erfolgreich abgemeldet!",
+    "app.auth-service.wrong-credentials.label" : "Passwort oder E-Mail falsch!",
 
     "app.commons.cancel.label": "ABBRECHEN",
     "app.commons.confirm.label": "BESTÄTIGEN",
@@ -141,10 +149,21 @@
     "app.component.app.groups.label" : "Gruppen",
     "app.component.app.devices.label" : "Geräte",
     "app.component.app.menu.label" : "Menü",
+    "app.component.app.sync-error.label" : "Fehler beim synchronisieren der Daten!",
+    "app.component.app.no-user.label": "Ohne Nutzer",
+
+    "app.component.users.header.label": "Nutzer",
+    "app.component.users.empty-list.label": "Keine Nutzer vorhanden",
 
     "app.component.rooms.header.label": "Räume",
+    "app.component.rooms.empty-list.label": "Keine Räume vorhanden",
+
     "app.component.groups.header.label": "Gruppen",
+    "app.component.groups.empty-list.label": "Keine Gruppen vorhanden",
+
     "app.component.devices.header.label": "Geräte",
+    "app.component.devices.empty-list.label": "Keine Geräte vorhanden",
+
 
     "app.device-service.delete-failed.label": "Gerät konnte nicht aus der Cloud gelöscht werden!",
     "app.device-service.is-available-failed.label": "Besitzer konnte nicht verifiziert werden!",
@@ -157,6 +176,14 @@
     "app.device-service.add-room-failed.label": "Raum konnte nicht in der Cloud gespeichert werden!",
     "app.device-service.delete-room-failed.label": "Gruppe konnte nicht in der Cloud gelöscht werden!",
 
+
+    "app.http-service.disable-cloud.label": "Trenne Gerät von der Cloud...",
+    "app.http-service.disable-cloud.success.label": "Gerät erfolgreich von der Cloud getrennt",
+    "app.http-service.disable-cloud.error.label": "Gerät konnte nicht von der Cloud getrennt werden",
+
+    "app.http-service.enable-cloud.label": "Verbinde Gerät mit der Cloud...",
+    "app.http-service.enable-cloud.success.label": "Gerät erfolgreich mit der Cloud verbunden",
+    "app.http-service.enable-cloud.error.label": "Gerät konnte nicht mit der Cloud verbunden werden",
 
     "app.http-service.settings.control-error.label": "Geräte konnte nicht angesteuert werden",
     "app.http-service.settings.error.label": "Einstellungen konnten nicht geändert werden",
