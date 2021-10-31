@@ -27,6 +27,42 @@ var DEVICE_TYPES = {
         'rolers': 0,
         'default_icon': 'socket.png'
     },
+    'SHPLG-IT1': {
+        'name': 'shellyplugit',
+        'friendly_name': 'Plug IT',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 1,
+        'meters': 1,
+        'rolers': 0,
+        'default_icon': 'socket.png'
+    },
+    'SHPLG-UK1': {
+        'name': 'shellypluguk1',
+        'friendly_name': 'Plug UK',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 1,
+        'meters': 1,
+        'rolers': 0,
+        'default_icon': 'socket.png'
+    },
+    'SHPLG-AU1': {
+        'name': 'shellyplugau1',
+        'friendly_name': 'Plug AU',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 1,
+        'meters': 1,
+        'rolers': 0,
+        'default_icon': 'socket.png'
+    },
     'SHPLG-U1': {
         'name': 'shellyplugu1',
         'friendly_name': 'Plug US',
@@ -40,18 +76,6 @@ var DEVICE_TYPES = {
         'default_icon': 'socket.png'
     },
     'SHPLG2-1': {
-        'name': 'shellyplug',
-        'friendly_name': 'Plug',
-        'family': 'relay',
-        'modes': [
-            'relay'
-        ],
-        'channels': 1,
-        'meters': 1,
-        'rolers': 0,
-        'default_icon': 'socket.png'
-    },
-    'SHPLG-UK1': {
         'name': 'shellyplug',
         'friendly_name': 'Plug',
         'family': 'relay',
@@ -182,6 +206,131 @@ var DEVICE_TYPES = {
         ],
         'channels': 4,
         'meters': 4,
+        'rolers': 0,
+        'default_icon': 'relay.png'
+    },
+    'SHPSW04P': {
+        'name': 'ShellyPro4PM',
+        'friendly_name': '4Pro',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 4,
+        'meters': 4,
+        'rolers': 0,
+        'default_icon': 'relay.png',
+        'template': 'SHPSW04P-relay'
+    },
+    'SPSW-004PE16EU': {
+        'name': 'ShellyPro4PM',
+        'friendly_name': '4 Pro PM',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 4,
+        'meters': 4,
+        'rolers': 0,
+        'default_icon': 'relay.png',
+        'template': 'SPSW-004PE16EU-relay'
+    },
+    'SPSW-002PE16EU': {
+        'name': 'ShellyPro2PM',
+        'friendly_name': '2 Pro PM',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 2,
+        'meters': 2,
+        'rolers': 0,
+        'default_icon': 'relay.png',
+        'template': 'SPSW-002PE16EU-relay'
+    },
+    'SPSW-001PE16EU': {
+        'name': 'ShellyPro1PM',
+        'friendly_name': '1 Pro PM',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 1,
+        'meters': 1,
+        'rolers': 0,
+        'default_icon': 'relay.png',
+        'template': 'SPSW-001PE16EU-relay'
+    },
+    'SPSW-001XE16EU': {
+        'name': 'ShellyPro1',
+        'friendly_name': '1 Pro',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 1,
+        'meters': 0,
+        'rolers': 0,
+        'default_icon': 'relay.png',
+        'template': 'SPSW-001XE16EU-relay'
+    },
+    'SPSW-002XE16EU': {
+        'name': 'ShellyPro2',
+        'friendly_name': '2 Pro',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 2,
+        'meters': 0,
+        'rolers': 0,
+        'default_icon': 'relay.png'
+    },
+    'SNSW-001X16EU': {
+        'name': 'ShellyPlus1',
+        'friendly_name': 'Plus 1',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 1,
+        'meters': 0,
+        'rolers': 0,
+        'default_icon': 'relay.png'
+    },
+    'SNSW-001P16EU': {
+        'name': 'ShellyPlus1PM',
+        'friendly_name': 'Plus 1 PM',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 1,
+        'meters': 1,
+        'rolers': 0,
+        'default_icon': 'relay.png'
+    },
+    'SNSW-002X16EU': {
+        'name': 'ShellyPlus2',
+        'friendly_name': 'Plus 2',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 2,
+        'meters': 0,
+        'rolers': 0,
+        'default_icon': 'relay.png'
+    },
+    'SNSW-002P16EU': {
+        'name': 'ShellyPlus2PM',
+        'friendly_name': 'Plus 2 PM',
+        'family': 'relay',
+        'modes': [
+            'relay'
+        ],
+        'channels': 2,
+        'meters': 2,
         'rolers': 0,
         'default_icon': 'relay.png'
     },
@@ -612,14 +761,15 @@ var DEVICE_TYPES = {
     }
 };
 
-var DEVICE_NAMES_REGEXP = /shelly-|shelly1-|shellysmoke-|shelly4pro-|shellyplug-|shellyplug-s-|shellyswitch-|shellyswitch25-|shellysense-|shellycolor-|shellysocket-|shellybulb-|shellyrgbww-|shellyHDpro-|Shelly2LED-|shellydw-|shellyht-|shellyemeter-|shellyrgbw2-|shelly1pm-|shellyem-|Shellybulb6w-|shellyem3-|shellyix3-|ShellyBulbDuo-|shellygas|shellybutton1-|shellyplugu1-|shellydimmerw1-|shellydimmer2-|shellydw2-|shellyuni-|shellycolorbulb-|shellymotionsensor-|shellypluguk1-|shellyspot-|shelly1l-|shellyairturbo-/;
+var DEVICE_NAMES_REGEXP = /shelly-|shelly1-|shellysmoke-|shelly4pro-|shellyplug-|shellyplug-s-|shellyswitch-|shellyswitch25-|shellysense-|shellycolor-|shellysocket-|shellybulb-|shellyrgbww-|shellyHDpro-|Shelly2LED-|shellydw-|shellyht-|shellyemeter-|shellyrgbw2-|shelly1pm-|shellyem-|Shellybulb6w-|shellyem3-|shellyix3-|ShellyBulbDuo-|shellygas|shellybutton1-|shellyplugu1-|shellydimmerw1-|shellydimmer2-|shellydw2-|shellyuni-|shellycolorbulb-|shellymotionsensor-|shellypluguk1-|shellyspot-|shelly1l-|shellyairturbo-|shellyplugit-|shellyplugau1-|shelly4pro64-|shellyonepm-|shellyonepm-|shellyplus1pm-|shellyplus1-|shellypro4pm-|ShellyPlus1-|ShellyPlus1PM-|ShellyPro4PM-|ShellyPro2PM-|ShellyPro1PM-|ShellyPro2-|ShellyPro1-|ShellyPlus2-|ShellyPlus2PM-/;
 
-var DISCOVERY_TYPES = ["SHSW-1", "SHSW-PM", "SHAIR-1", "SHAIR-2", "SHSW-21", "SHSW-44", "SHSW-22", "SHSW-25", "SHSW-L", "SHPLG-1", "SHPLG-S", "SHPLG2-1", "SHSK-1", "SHSEN-1", "SHCL-255", "SHSM-01", "SHBLB-1", "SHRGBWW-01", "SH2LED-1", "SHHT-1", "SHDW-1", "SHDW-2", "SHWT-1", "SHEM-1", "SHEM-3", "SHEM", "SHRGBW2", "SHDM-1", "SHDM-2", "SHDIMW-1", "SHVIN-1", "SHIX3-1", "SHSW-1S", "SHBDUO-1","SHGS-1", "SHBTN-1", "SHBTN-2", "SHPLG-U1", "SHUNI-1", "SHCB-1", "SHMOS-01", "SHPLG-UK1", "SHSPOT-1", "shelly1", "shelly1pm", "shelly4pro", "shellyHDpro", "shellyswitch25", "shellyplug", "shellyplug-s", "shellyswitch", "shellysense", "shellysocket", "shellycolor", "shellyflood", "shellydw", "shellybulb", "shellybulb6w", "Shelly2LED", "shellyht", "shellyemeter", "shellyrgbw2", "shellyem", "shellyem3", "shellyix3", "ShellyBulbDuo", "shellygas", "shellybutton1", "shellyplugu1", "shellydimmer", "shellydimmer2", "shellydimmerw1", "shellydw2", "shellyuni", "shellycolorbulb", "shellymotionsensor", "shellypluguk1", "shellyspot", "shelly1l","shellyairturbo"];
+var DISCOVERY_TYPES = ["SHSW-1", "SHSW-PM", "SHAIR-1", "SHAIR-2", "SHSW-21", "SHSW-44", "SHPSW04P", "SPSW-001PE16EU", "SPSW-001XE16EU", "SPSW-002PE16EU", "SPSW-002XE16EU", "SPSW-004PE16EU", "SNSW-001P16EU", "SNSW-001X16EU", "SNSW-002P16EU", "SNSW-002X16EU", "SHSW-22", "SHSW-25", "SHSW-L", "SHPLG-1", "SHPLG-S", "SHPLG2-1", "SHSK-1", "SHSEN-1", "SHCL-255", "SHSM-01", "SHBLB-1", "SHRGBWW-01", "SH2LED-1", "SHHT-1", "SHDW-1", "SHDW-2", "SHWT-1", "SHEM-1", "SHEM-3", "SHEM", "SHRGBW2", "SHDM-1", "SHDM-2", "SHDIMW-1", "SHVIN-1", "SHIX3-1", "SHSW-1S", "SHBDUO-1","SHGS-1", "SHBTN-1", "SHBTN-2", "SHPLG-U1", "SHUNI-1", "SHCB-1","SHMOS-01" ,"SHPLG-UK1" ,"SHPLG-IT1" ,"SHPLG-AU1" ,"SHSPOT-1", "shelly1", "shelly1pm", "shelly4pro", "shellyHDpro", "shellyswitch25", "shellyplug", "shellyplug-s", "shellyswitch", "shellysense", "shellysocket", "shellycolor", "shellyflood", "shellydw", "shellybulb", "shellybulb6w", "Shelly2LED", "shellyht", "shellyemeter", "shellyrgbw2", "shellyem", "shellyem3", "shellyix3", "ShellyBulbDuo", "shellygas", "shellybutton1", "shellyplugu1", "shellydimmer", "shellydimmer2", "shellydimmerw1", "shellydw2", "shellyuni", "shellycolorbulb", "shellymotionsensor", "shellypluguk1", "shellyplugit", "shellyplugau1", "shellyspot", "shelly1l","shellyairturbo","shelly4pro64","shellyone","shellyonepm","shellypro4pm","shellyplus1","shellyplus1pm","ShellyPro4PM","ShellyPlus1","ShellyPlus1PM","ShellyPro1","ShellyPro1PM","ShellyPro2","ShellyPro2PM","shellypro2","shellypro2pm","shellypro1","shellypro1pm","shellyplus2pm","shellyplus2","ShellyPlus2","ShellyPlus2PM"];
 
-var DEVICE_OTA = ['20190103-082948/rgbw2@565f4336', '20191219-100325/???', '20191216-140245/???','20181128-144724/???','20191230-112953/master@fe7779a8+'];
+var DEVICE_OTA = ['20190103-082948/rgbw2@565f4336', '20191219-100325/???', '20191216-140245/???','20181128-144724/???','20191230-112953/master@fe7779a8+','20191216-140157/???','20191217-074901/1047-long-id-for-shelly-devices@ab2bdce7'];
 
 var DEVICE_OTA_BEFORE = {
-    'SHEM-3': 20200204
+    'SHEM-3': 20200204,
+    'SHDM-2': 20210225
 };
 
 var LONG_ID_DEVICES_OTA = {
@@ -633,3 +783,8 @@ var LONG_ID_DEVICES_OTA = {
     'SHRGBW2': 'http://shelly-api-eu.shelly.cloud/firmware/longid_patch/rgbw2-longid.zip'
 };
 
+var INTERMEDIATE_OTA = {
+//    'SHIX3-1': {
+//        20210429: 'http://shelly-api-eu.shelly.cloud/firmware/SHIX-3/SHIX3-1.zip'
+//    }
+};
