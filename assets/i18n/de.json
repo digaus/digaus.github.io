@@ -13,6 +13,7 @@
     "app.component.welcome.login.label": "Login",
     "app.component.welcome.email.label": "E-Mail",
     "app.component.welcome.password.label": "Passwort",
+
     "app.component.dashboard.edit.header.label": "Dashboard anpassen",
     "app.component.dashboard.reorder.header.label": "Sortieren",
     "app.component.dashboard.add-room.header.label": "Raum",
@@ -22,6 +23,7 @@
     "app.component.dashboard.cancel.header.label": "Abbrechen",
     "app.component.dashboard.empty.label": "Elemente mit Drag and Drop hinzufügen",
     "app.component.dashboard.empty-list.label": "Füge ein Dashboard hinzu",
+
     "app.component.more.donate.label": "Spenden",
     "app.component.more.system-theme.label": "System Theme",
     "app.component.more.dark-theme.label": "Dunkles Theme",
@@ -42,6 +44,7 @@
     "app.component.more.backup-load-error.label": "Laden des Backups fehlgeschlagen",
     "app.component.more.backup-download-success.label": "Backup erfolgreich im Dokumenten Ordner erstellt",
     "app.component.more.backup-download-error.label": "Erstellen des Backups fehlgeschlagen",
+
     "app.component.add.confirm.label": "Gerät suchen und hinzufügen",
     "app.component.add.network.header.label": "Wifi Netzwerk",
     "app.component.add.network.label": "Netzwerk",
@@ -49,14 +52,17 @@
     "app.component.add.select-shelly.label": "Gerät wählen",
     "app.component.add.select-type.label": "Typ",
     "app.component.add.select-ssid.label": "SSID Prefix",
+
     "app.component.roller-content.closed.label": "ZU",
     "app.component.roller-content.open.label": "AUF",
+
     "app.component.device-status.device-con-list[local].label": "Lokal",
     "app.component.device-status.device-con-list[cloud].label": "Cloud",
     "app.component.device-status.device-con-list[sync].label": "Sync",
     "app.component.device-status.device-con-list[offline].label": "Offline",
     "app.component.device-status.device-con-list[locked].label": "Gesperrt",
     "app.component.device-status.device-con-list[updating].label": "Update",
+
     "app.component.device-add.mode.label": "Modus",
     "app.component.device-add.name.label": "Name",
     "app.component.device-add.room_id.label": "Räume",
@@ -65,21 +71,36 @@
     "app.component.device-add.no_room_cons.label": "Eigenständiger Verbrauch",
     "app.component.device-add.cancel.label": "ABBRECHEN",
     "app.component.device-add.confirm.label": "BESTÄTIGEN",
+
     "app.component.room-add.name.label": "Name",
     "app.component.room-add.cancel.label": "ABBRECHEN",
     "app.component.room-add.confirm.label": "BESTÄTIGEN",
+
     "app.component.group-add.name.label": "Name",
     "app.component.group-add.devices.label": "Geräte",
     "app.component.group-add.cancel.label": "ABBRECHEN",
     "app.component.group-add.confirm.label": "BESTÄTIGEN",
+
     "app.component.update.confirm.label": "Geräte aktualisieren",
     "app.component.update.download.label": "Lade Firmwares herunter",
     "app.component.update.download-done.label": "Firmwares sind bereits heruntergeladen",
     "app.component.update.done.label": "Anfragen gesendet, Geräte sollten sich nun aktualisieren",
     "app.component.update.no-devices.label": "Keine lokalen Geräte zum Aktualisieren ausgewählt aber Firmwares sind schon heruntergeladen",
+
     "app.component.customize.header.label": "Layout auswählen",
+
     "app.component.graph.error.label": "Verbrauchsdaten konnten nicht geladen werden",
+
     "app.component.customize-graph.header.label": "Graph anpassen",
+    "app.component.customize-graph.type.label": "Typ",
+    "app.component.customize-graph.type[day].label": "Tag",
+    "app.component.customize-graph.type[week].label": "Woche",
+    "app.component.customize-graph.type[month].label": "Monat",
+    "app.component.customize-graph.type[year].label": "Jahr",
+    "app.component.customize-graph.type[custom].label": "Benutzerdefiniert",
+    "app.component.customize-graph.type[custom_today].label": "Heute",
+    "app.component.customize-graph.date.label": "Zeitraum",
+
     "app.model.mode[relay].label": "Schalter",
     "app.model.mode[roller].label": "Rolladen",
     "app.model.mode[sensor].label": "Sensor",
@@ -89,6 +110,7 @@
     "app.model.mode[inputs_reader].label": "Eingabe",
     "app.model.relay_usage[outlet].label": "Steckdose",
     "app.model.relay_usage[light].label": "Licht",
+
     "app.alert-service.dashboard.label": "Dashboard hinzufügen",
     "app.alert-service.cols.label": "Anzahl Spalten",
     "app.alert-service.cancel.label": "ABBRECHEN",
@@ -105,15 +127,18 @@
     "app.alert-service.delete-all.label": "Alle {{deviceCount}} Geräte entfernen?",
     "app.alert-service.delete.label": "Gerät entfernen?",
     "app.alert-service.user.label": "Nutzer",
+
     "app.auth-service.login-success.label": "Erfolgreich angemeldet",
     "app.auth-service.login-failed.label": "Anmeldung fehlgeschlagen!",
     "app.auth-service.logout-success.label": "Erfolgreich abgemeldet!",
     "app.auth-service.wrong-credentials.label": "Passwort oder E-Mail falsch!",
+
     "app.commons.cancel.label": "ABBRECHEN",
     "app.commons.confirm.label": "BESTÄTIGEN",
     "app.commons.languages.label": "Sprache",
     "app.commons.languages[de].label": "Deutsch",
     "app.commons.languages[en].label": "English",
+
     "app.component.app.login.label": "Anmelden",
     "app.component.app.rooms.label": "Räume",
     "app.component.app.groups.label": "Gruppen",
@@ -129,6 +154,7 @@
     "app.component.groups.empty-list.label": "Keine Gruppen vorhanden",
     "app.component.devices.header.label": "Geräte",
     "app.component.devices.empty-list.label": "Keine Geräte vorhanden",
+
     "app.device-service.delete-failed.label": "Gerät konnte nicht aus der Cloud gelöscht werden!",
     "app.device-service.is-available-failed.label": "Besitzer konnte nicht verifiziert werden!",
     "app.device-service.add-failed.label": "Gerät konnte nicht zur Cloud hinzugefügt werden!",
@@ -139,6 +165,7 @@
     "app.device-service.delete-group-failed.label": "Gruppe konnte nicht in der Cloud gelöscht werden!",
     "app.device-service.add-room-failed.label": "Raum konnte nicht in der Cloud gespeichert werden!",
     "app.device-service.delete-room-failed.label": "Gruppe konnte nicht in der Cloud gelöscht werden!",
+
     "app.http-service.disable-cloud.label": "Trenne Gerät von der Cloud...",
     "app.http-service.disable-cloud.success.label": "Gerät erfolgreich von der Cloud getrennt",
     "app.http-service.disable-cloud.error.label": "Gerät konnte nicht von der Cloud getrennt werden",

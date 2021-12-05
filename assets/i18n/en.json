@@ -98,6 +98,14 @@
     "app.component.update.no-devices.label": "No local devices selected for updateing but firmwares are already downloaded",
 
     "app.component.customize.header.label": "Customize layout",
+    "app.component.customize-graph.type.label": "Type",
+    "app.component.customize-graph.type[day].label": "Day",
+    "app.component.customize-graph.type[week].label": "Week",
+    "app.component.customize-graph.type[month].label": "Month",
+    "app.component.customize-graph.type[year].label": "Year",
+    "app.component.customize-graph.type[custom].label": "Custom",
+    "app.component.customize-graph.type[custom_today].label": "Today",
+    "app.component.customize-graph.date.label": "Daterange",
 
     "app.component.graph.error.label": "Failed to load consumption data",
 
