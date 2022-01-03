@@ -87,6 +87,11 @@
     "app.component.room-add.confirm.label": "CONFIRM",
 
     "app.component.group-add.name.label": "Name",
+    "app.component.group-add.type.label": "Type",
+    "app.component.group-add.type[relay].label": "Relay",
+    "app.component.group-add.type[roller].label": "Roller",
+    "app.component.group-add.type[light].label": "Light",
+    "app.component.group-add.type[custom].label": "Custom",
     "app.component.group-add.devices.label": "Devices",
     "app.component.group-add.cancel.label": "CANCEL",
     "app.component.group-add.confirm.label": "CONFIRM",
@@ -106,6 +111,14 @@
     "app.component.customize-graph.type[custom].label": "Custom",
     "app.component.customize-graph.type[custom_today].label": "Today",
     "app.component.customize-graph.date.label": "Daterange",
+    "app.component.customize-graph.graph-type[min_temperature].label": "Min Temp",
+    "app.component.customize-graph.graph-type[max_temperature].label": "Max Temp",
+    "app.component.customize-graph.graph-type[humidity].label": "Humidity",
+    "app.component.customize-graph.graph-type[consumption0].label": "Total",
+    "app.component.customize-graph.graph-type[consumption1].label": "Phase 1",
+    "app.component.customize-graph.graph-type[consumption2].label": "Phase 2",
+    "app.component.customize-graph.graph-type[consumption3].label": "Phase 3",
+    "app.component.customize-graph.steps.label": "Steps",
 
     "app.component.graph.error.label": "Failed to load consumption data",
 
@@ -128,6 +141,7 @@
     "app.alert-service.cancel.label": "CANCEL",
     "app.alert-service.remove.label": "REMOVE",
     "app.alert-service.confirm.label": "CONFIRM",
+    "app.alert-service.continue.label": "CONTINUE",
     "app.alert-service.login.label": "Login",
     "app.alert-service.e-mail.label": "E-Mail",
     "app.alert-service.password.label": "Password",
@@ -139,6 +153,9 @@
     "app.alert-service.delete-all.label": "Remove all {{deviceCount}} devices?",
     "app.alert-service.delete.label": "Remove device?",
     "app.alert-service.user.label": "User",
+    "app.alert-service.donate.label": "Do you like this app?",
+    "app.alert-service.donate-sub.label": "You can help cover my development costs by donating!",
+
 
     "app.auth-service.login-success.label": "Login successfull",
     "app.auth-service.login-failed.label" : "Login failed!",
@@ -189,33 +206,32 @@
     "app.http-service.disable-cloud.label": "Disconnecting device from the cloud...",
     "app.http-service.disable-cloud.success.label": "Device successfully disconnected from the cloud",
     "app.http-service.disable-cloud.error.label": "Failed to disconnect device from the cloud",
-
     "app.http-service.enable-cloud.label": "Connecting device to cloud...",
     "app.http-service.enable-cloud.success.label": "Device successfully connected to the cloud",
     "app.http-service.enable-cloud.error.label": "Failed to connect device to the cloud",
-
     "app.http-service.settings.control-error.label": "Failed to control device",
     "app.http-service.settings.error.label": "Failed to change settings",
     "app.http-service.settings.all.error.label": "Failed to change all settings",
     "app.http-service.settings.success.label": "Settings updated successfully",
     "app.http-service.update-device.success.label": "Device updated successfully",
     "app.http-service.update-device.error.label": "Failed to update device",
-
     "app.http-service.settings.fetch-error.label": "Failed to retrieve settings",
-
     "app.http-service.add-room.success.label": "Room added successfully",
     "app.http-service.add-room.error.label": "Failed to add room",
     "app.http-service.update-room.success.label": "Room updated successfully",
     "app.http-service.update-room.error.label": "Failed to update room",
     "app.http-service.delete-room.success.label": "Room deleted successfully",
     "app.http-service.delete-room.error.label": "Failed to delete room",
-
     "app.http-service.add-group.success.label": "Group added successfully",
+    "app.http-service.add-group.custom.success.label": "Group added locally, custom groups will not be synced with the cloud",
     "app.http-service.add-group.error.label": "Failed to add group",
     "app.http-service.update-group.success.label": "Group updated successfully",
     "app.http-service.update-group.error.label": "Failed to update group",
     "app.http-service.delete-group.success.label": "Group deleted successfully",
     "app.http-service.delete-group.error.label": "Failed to delete group",
     "app.http-service.fetch-settings.label": "Fetching device settings...",
-    "app.http-service.connecting-cloud.label": "Connecting device to cloud..."
+    "app.http-service.connecting-cloud.label": "Connecting device to cloud...",
+
+    "app.donate-service.donate-success.label": "Donation send successfully. Thank you for your support!",
+    "app.donate-service.donate-error.label": "An unkown error occured!"
 }

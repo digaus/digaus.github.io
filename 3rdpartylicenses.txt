@@ -349,6 +349,9 @@ MIT
 @ionic-native/in-app-browser
 MIT
 
+@ionic-native/in-app-purchase-2
+MIT
+
 @ionic-native/zeroconf
 MIT
 
