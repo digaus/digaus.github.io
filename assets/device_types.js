@@ -758,6 +758,16 @@ var DEVICE_TYPES = {
         ],
         'default_icon': 'motion.png',
         'sleeping_mode': true
+    },
+    'SHTRV-01' : {
+        'name': 'shellytrv',
+        'friendly_name': 'TRV',
+        'family': 'thermostat',
+        'modes': [
+            'thermostat'
+        ],
+        'default_icon': 'tmp.png',
+        'sleeping_mode': true
     }
 };
 
