@@ -1,19 +1,14 @@
 {
-     
+    "app.component.welcome.languages-missing.label": "Language not available? Help to integrate it!",
     "app.component.welcome.welcome.label": "Welcome!",
     "app.component.welcome.welcome-text.label": "<b>Shelly Home</b> is a practical and free application for <b>Shelly</b> smart home devices. Please select your language to continue.",
-    "app.component.welcome.languages-missing.label": "Language not available? Help to integrate it!",
-
+    "app.component.welcome.languages.label": "Languages",
     "app.component.welcome.creation.label": "Who created Shelly Home?",
     "app.component.welcome.creation-text.label": "<b>Shelly Home</b> is a cross platform app created by the software developer <b>Dirk Gausmann</b>. It is developed in his free time and aims to bring a better user experience to <b>Shelly</b> users.",
-
     "app.component.welcome.features.label": "What can Shelly Home do?",
     "app.component.welcome.features-text.label": "<b>Shelly Home</b> is available on <b>Android, iOS, MacOS</b> and <b>Windows</b>. You can add, manage, update and control your <b>Shelly</b> devices aswell as highly customize how and what information you want to see.<br/>The app also does work without a user account and can directly access the <b>Shelly</b> devices located in the same network. Optionally the user can connect to its <b>Shelly Cloud</b> account, to be able to control the devices from anywhere.",
-
-    
     "app.component.welcome.start.label": "Ready to start?",
     "app.component.welcome.start-text.label": "Use <b>Shelly Home</b> with or without a <b>Shelly Cloud</b> account",
-
     "app.component.welcome.skip-login.label": "Skip login",
     "app.component.welcome.login.label": "Login",
     "app.component.welcome.email.label": "E-Mail",
@@ -40,7 +35,6 @@
 	"app.component.more.report-error.label" : "Report a problem",
 	"app.component.more.report-error-body.label" : "Describe the problem and how you got there:",
     "app.component.more.report-error-prompt.label" : "Please attach the error log from the document folder to the mail",
-
     "app.component.more.backup.label": "Backup",
     "app.component.more.backup.header.label": "Backup app data",
     "app.component.more.backup-do.label": "Create backup",
@@ -48,7 +42,7 @@
     "app.component.more.cancel.label": "Cancel",
     "app.component.more.backup-load-success.label": "Loaded backup successfully",
     "app.component.more.backup-load-error.label": "Loading backup failed",
-    "app.component.more.backup-download-success.label": "Created backup successfully in document folder",
+    "app.component.more.backup-download-success.label": "Created backup successfully",
     "app.component.more.backup-download-error.label": "Creating backup failed",
 
     "app.component.add.confirm.label" : "Search and add device",
@@ -69,16 +63,12 @@
     "app.component.device-status.device-con-list[locked].label": "Locked",
     "app.component.device-status.device-con-list[updating].label": "Update",
 
-    "app.component.actions.add.label": "Create",
-    "app.component.actions.reorder.label": "Sort",
-
     "app.component.device-add.mode.label": "Mode",
     "app.component.device-add.name.label": "Name",
     "app.component.device-add.room_id.label": "Room",
     "app.component.device-add.relay_usage.label": "Usage",
     "app.component.device-add.image.label": "Icon",
     "app.component.device-add.no_room_cons.label": "Standlone consumption",
-
     "app.component.device-add.cancel.label": "CANCEL",
     "app.component.device-add.confirm.label": "CONFIRM",
 
@@ -103,6 +93,10 @@
     "app.component.update.no-devices.label": "No local devices selected for updateing but firmwares are already downloaded",
 
     "app.component.customize.header.label": "Customize layout",
+
+    "app.component.graph.error.label": "Failed to load data",
+
+    "app.component.customize-graph.header.label": "Customize graph",
     "app.component.customize-graph.type.label": "Type",
     "app.component.customize-graph.type[day].label": "Day",
     "app.component.customize-graph.type[week].label": "Week",
@@ -120,8 +114,6 @@
     "app.component.customize-graph.graph-type[consumption3].label": "Phase 3",
     "app.component.customize-graph.steps.label": "Steps",
 
-    "app.component.graph.error.label": "Failed to load consumption data",
-
     "app.model.mode[relay].label": "Switch",
     "app.model.mode[roller].label": "Roller",
     "app.model.mode[sensor].label": "Sensor",
@@ -129,9 +121,6 @@
     "app.model.mode[white].label": "White",
     "app.model.mode[emeter].label": "E-Meter",
     "app.model.mode[inputs_reader].label": "Input",
-
-    "app.model.device-add.cancel.label": "CANCEL",
-    "app.model.device-add.confirm.label": "CONFIRM",
 
     "app.model.relay_usage[outlet].label": "Outlet",
     "app.model.relay_usage[light].label": "Light",  
@@ -155,12 +144,13 @@
     "app.alert-service.user.label": "User",
     "app.alert-service.donate.label": "Do you like this app?",
     "app.alert-service.donate-sub.label": "You can help cover my development costs by donating!",
-
+    "app.alert-service.pin.label": "Provide pin",
+    "app.alert-service.pin-optional.label": "Provide pin (optional)",
+    "app.alert-service.pin-placeholder.label": "Pin",
 
     "app.auth-service.login-success.label": "Login successfull",
     "app.auth-service.login-failed.label" : "Login failed!",
     "app.auth-service.logout-success.label" : "Logout successful!",
-    "app.auth-service.control-failed.label" : "Device not available!",
     "app.auth-service.wrong-credentials.label" : "Password or E-Mail wrong!",
 
     "app.commons.cancel.label": "CANCEL",
@@ -168,6 +158,7 @@
     "app.commons.languages.label": "Languages",
     "app.commons.languages[de].label": "Deutsch",
     "app.commons.languages[en].label": "English",
+    "app.commons.languages[fr].label": "Français",
     
     "app.component.app.login.label" : "Login",
     "app.component.app.rooms.label" : "Rooms",
@@ -189,8 +180,6 @@
     "app.component.devices.header.label": "Devices",
     "app.component.devices.empty-list.label": "No devices available",
 
-    "app.component.customize-graph.header.label": "Customize graph",
-
     "app.device-service.delete-failed.label": "Failed to delete device from cloud!",
     "app.device-service.is-available-failed.label": "Failed to verify owner!",
     "app.device-service.add-failed.label": "Failed to add device to cloud!",
@@ -201,7 +190,6 @@
     "app.device-service.delete-group-failed.label": "Failed to delete group from cloud!",
     "app.device-service.add-room-failed.label": "Failed to save room to cloud!",
     "app.device-service.delete-room-failed.label": "Failed to delete room from cloud!",
-
 
     "app.http-service.disable-cloud.label": "Disconnecting device from the cloud...",
     "app.http-service.disable-cloud.success.label": "Device successfully disconnected from the cloud",

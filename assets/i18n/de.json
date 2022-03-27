@@ -2,7 +2,7 @@
     "app.component.welcome.languages-missing.label": "Sprache nicht verfügbar? Hilf mit diese zu integrieren!",
     "app.component.welcome.welcome.label": "Willkommen!",
     "app.component.welcome.welcome-text.label": "<b>Shelly Home</b> ist eine kostenlose und nützliche Anwendung für <b>Shelly</b> Smart Home Geräte. Bitte wählen sie zum Fortfahren eine Sprache.",
-    "app.component.welcome.languages.label": "Languages",
+    "app.component.welcome.languages.label": "Sprachen",
     "app.component.welcome.creation.label": "Von wem ist Shelly Home?",
     "app.component.welcome.creation-text.label": "<b>Shelly Home</b> ist eine Cross Platform App erstellt von dem Software Entwickler <b>Dirk Gausmann</b>. Die Anwendung wurde in seiner Freizeit entwickelt und zielt darauf ab, <b>Shelly</b> Nutzern eine bessere Benutzererfahrung zu bieten.",
     "app.component.welcome.features.label": "Was kann Shelly Home?",
@@ -42,7 +42,7 @@
     "app.component.more.cancel.label": "Abbrechen",
     "app.component.more.backup-load-success.label": "Backup erfolgreich geladen",
     "app.component.more.backup-load-error.label": "Laden des Backups fehlgeschlagen",
-    "app.component.more.backup-download-success.label": "Backup erfolgreich im Dokumenten Ordner erstellt",
+    "app.component.more.backup-download-success.label": "Backup erfolgreich erstellt",
     "app.component.more.backup-download-error.label": "Erstellen des Backups fehlgeschlagen",
 
     "app.component.add.confirm.label": "Gerät suchen und hinzufügen",
@@ -94,7 +94,7 @@
 
     "app.component.customize.header.label": "Layout auswählen",
 
-    "app.component.graph.error.label": "Verbrauchsdaten konnten nicht geladen werden",
+    "app.component.graph.error.label": "Daten konnten nicht geladen werden",
 
     "app.component.customize-graph.header.label": "Graph anpassen",
     "app.component.customize-graph.type.label": "Typ",
@@ -121,6 +121,7 @@
     "app.model.mode[white].label": "Weiß",
     "app.model.mode[emeter].label": "Stromsensor",
     "app.model.mode[inputs_reader].label": "Eingabe",
+
     "app.model.relay_usage[outlet].label": "Steckdose",
     "app.model.relay_usage[light].label": "Licht",
 
@@ -143,6 +144,9 @@
     "app.alert-service.user.label": "Nutzer",
     "app.alert-service.donate.label": "Mögen Sie diese App?",
     "app.alert-service.donate-sub.label": "Dann können Sie mich mit einer Spende unterstüzen!",
+    "app.alert-service.pin.label": "Pin eingeben",
+    "app.alert-service.pin-optinal.label": "Pin eingeben (optional)",
+    "app.alert-service.pin-placeholder.label": "Pin",
 
     "app.auth-service.login-success.label": "Erfolgreich angemeldet",
     "app.auth-service.login-failed.label": "Anmeldung fehlgeschlagen!",
@@ -154,6 +158,7 @@
     "app.commons.languages.label": "Sprache",
     "app.commons.languages[de].label": "Deutsch",
     "app.commons.languages[en].label": "English",
+    "app.commons.languages[fr].label": "Français",
 
     "app.component.app.login.label": "Anmelden",
     "app.component.app.rooms.label": "Räume",
@@ -162,12 +167,16 @@
     "app.component.app.menu.label": "Menü",
     "app.component.app.sync-error.label": "Fehler beim synchronisieren der Daten!",
     "app.component.app.no-user.label": "Ohne Nutzer",
+
     "app.component.users.header.label": "Nutzer",
     "app.component.users.empty-list.label": "Keine Nutzer vorhanden",
+
     "app.component.rooms.header.label": "Räume",
     "app.component.rooms.empty-list.label": "Keine Räume vorhanden",
+
     "app.component.groups.header.label": "Gruppen",
     "app.component.groups.empty-list.label": "Keine Gruppen vorhanden",
+
     "app.component.devices.header.label": "Geräte",
     "app.component.devices.empty-list.label": "Keine Geräte vorhanden",
 
