@@ -80,6 +80,7 @@
     "app.component.group-add.type.label": "Type",
     "app.component.group-add.type[relay].label": "Relais",
     "app.component.group-add.type[roller].label": "Volet",
+    "app.component.group-add.type[thermostat].label": "Thermostat",
     "app.component.group-add.type[light].label": "Lampe",
     "app.component.group-add.type[custom].label": "Personnalisé",
     "app.component.group-add.devices.label": "Périphériques",
@@ -113,6 +114,7 @@
     "app.component.customize-graph.graph-type[consumption2].label": "Phase 2",
     "app.component.customize-graph.graph-type[consumption3].label": "Phase 3",
     "app.component.customize-graph.steps.label": "Pas",
+    "app.component.customize-graph.beginAtZero.label": "Ligne zéro",
 
     "app.model.mode[relay].label": "Switch",
     "app.model.mode[roller].label": "Volet",
@@ -121,6 +123,8 @@
     "app.model.mode[white].label": "Blanc",
     "app.model.mode[emeter].label": "Electromètre",
     "app.model.mode[inputs_reader].label": "Entrée",
+    "app.model.mode[thermostat].label": "Thermostat",
+
 
     "app.model.relay_usage[outlet].label": "Sortie",
     "app.model.relay_usage[light].label": "Lampe",  
@@ -159,6 +163,7 @@
     "app.commons.languages[de].label": "Deutsch",
     "app.commons.languages[en].label": "English",
     "app.commons.languages[fr].label": "Français",
+    "app.commons.languages[nl].label": "Nederlands",
     
     "app.component.app.login.label" : "Identifiant",
     "app.component.app.rooms.label" : "Pièces",
@@ -221,5 +226,8 @@
     "app.http-service.connecting-cloud.label": "Connexion du périphérique au cloud..",
 
     "app.donate-service.donate-success.label": "Don envoyé avec succès. Merci pour votre soutien !",
-    "app.donate-service.donate-error.label": "Une erreur inconnue s'est produite !"
+    "app.donate-service.donate-error.label": "Une erreur inconnue s'est produite !",
+
+    "app.device-info-service.unkown-device.label": "Périphérique inconnu '{{type}}' reconnu, veuillez me contacter par e-mail"
+
 }

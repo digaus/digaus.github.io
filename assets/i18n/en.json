@@ -80,6 +80,7 @@
     "app.component.group-add.type.label": "Type",
     "app.component.group-add.type[relay].label": "Relay",
     "app.component.group-add.type[roller].label": "Roller",
+    "app.component.group-add.type[thermostat].label": "Thermostat",
     "app.component.group-add.type[light].label": "Light",
     "app.component.group-add.type[custom].label": "Custom",
     "app.component.group-add.devices.label": "Devices",
@@ -113,6 +114,7 @@
     "app.component.customize-graph.graph-type[consumption2].label": "Phase 2",
     "app.component.customize-graph.graph-type[consumption3].label": "Phase 3",
     "app.component.customize-graph.steps.label": "Steps",
+    "app.component.customize-graph.beginAtZero.label": "Zero line",
 
     "app.model.mode[relay].label": "Switch",
     "app.model.mode[roller].label": "Roller",
@@ -121,6 +123,7 @@
     "app.model.mode[white].label": "White",
     "app.model.mode[emeter].label": "E-Meter",
     "app.model.mode[inputs_reader].label": "Input",
+    "app.model.mode[thermostat].label": "Thermostat",
 
     "app.model.relay_usage[outlet].label": "Outlet",
     "app.model.relay_usage[light].label": "Light",  
@@ -159,6 +162,7 @@
     "app.commons.languages[de].label": "Deutsch",
     "app.commons.languages[en].label": "English",
     "app.commons.languages[fr].label": "Français",
+    "app.commons.languages[nl].label": "Nederlands",
     
     "app.component.app.login.label" : "Login",
     "app.component.app.rooms.label" : "Rooms",
@@ -221,5 +225,7 @@
     "app.http-service.connecting-cloud.label": "Connecting device to cloud...",
 
     "app.donate-service.donate-success.label": "Donation send successfully. Thank you for your support!",
-    "app.donate-service.donate-error.label": "An unkown error occured!"
+    "app.donate-service.donate-error.label": "An unkown error occured!",
+
+    "app.device-info-service.unkown-device.label": "Unknown device '{{type}}' recognized, please contact me via mail"
 }
