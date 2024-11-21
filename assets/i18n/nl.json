@@ -6,7 +6,7 @@
     "app.component.welcome.creation.label": "Wie heeft Shelly Home gemaakt?",
     "app.component.welcome.creation-text.label": "<b>Shelly Home</b> is een cross platform app, gecreëerd door de software ontwikkelaar <b>Dirk Gausmann</b>. Het is ontworpen in zijn vrije tijd met als doel om een betere ervaring te brengen aan <b>Shelly</b> gebruikers",
     "app.component.welcome.features.label": "Wat kan Shelly Home doen?",
-    "app.component.welcome.features-text.label": "<b>Shelly Home</b> is beschikbaar voor <b>Android, iOS, MacOS</b> en <b>Windows</b> . Je kunt je <b>Shelly</b> apparaten toevoegen, beheren, updaten en controleren evenals ruim aanpassen hoe en wat je wilt zien.<br/>De app werkt ook zonder gebruikersaccount en heeft direct toegang tot <b>Shelly</b> apparaten in hetzelfde netwerk. Optioneel kan de gebruiker inloggen op zijn <b>Shelly Cloud</b> account, om zo de apparaten ook vanaf buiten het netwerk te beheren.",
+    "app.component.welcome.features-text.label": "<b>Shelly Home</b> is beschikbaar voor <b>Smartphones, MacOS</b> en <b>Windows</b> . Je kunt je <b>Shelly</b> apparaten toevoegen, beheren, updaten en controleren evenals ruim aanpassen hoe en wat je wilt zien.<br/>De app werkt ook zonder gebruikersaccount en heeft direct toegang tot <b>Shelly</b> apparaten in hetzelfde netwerk. Optioneel kan de gebruiker inloggen op zijn <b>Shelly Cloud</b> account, om zo de apparaten ook vanaf buiten het netwerk te beheren.",
     "app.component.welcome.start.label": "Klaar om te beginnen?",
     "app.component.welcome.start-text.label": "Gebruik <b>Shelly Home</b> met of zonder een <b>Shelly Cloud</b> account",
     "app.component.welcome.skip-login.label": "Inloggen overslaan",
@@ -23,12 +23,16 @@
     "app.component.dashboard.cancel.header.label": "Annuleren",
     "app.component.dashboard.empty.label": "Sleep en plaats elementen hier",
     "app.component.dashboard.empty-list.label": "Voeg een dashboard toe",
+    "app.component.dashboard.search-device.header.label": "Apparaten zoeken",
+    "app.component.dashboard.add-device-wifi.header.label": "Apparaten toevoegen",
+    "app.component.dashboard.add-device-ble.header.label": "Bluetooth Apparaten toevoegen",
 
     "app.component.more.donate.label": "Doneer",
     "app.component.more.system-theme.label": "Systeem thema",
     "app.component.more.dark-theme.label": "Donker thema",
     "app.component.more.light-theme.label": "Licht thema",
     "app.component.more.add-devices.label" : "Apparaten toevoegen",
+    "app.component.more.add-bt-devices.label" : "Bluetooth Apparaten toevoegen",
     "app.component.more.search-devices.label" : "Apparaten zoeken",
     "app.component.more.update-devices.label": "Apparaten updaten",
     "app.component.more.language.label" : "Taal",
@@ -56,6 +60,7 @@
     "app.component.roller-content.closed.label": "GESLOTEN",
     "app.component.roller-content.open.label": "OPEN",
 
+    "app.component.device-status.device-con-list[ble].label": "BLE",
     "app.component.device-status.device-con-list[local].label": "Lokaal",
     "app.component.device-status.device-con-list[cloud].label": "Cloud",
     "app.component.device-status.device-con-list[sync].label": "Sync",
@@ -116,13 +121,20 @@
     "app.component.customize-graph.steps.label": "Stappen",
     "app.component.customize-graph.beginAtZero.label": "Nullijn",
     "app.component.customize-graph.compact.label": "Compact",
+    "app.component.customize-graph.scales.label": "Schaal",
 
     "app.model.mode[relay].label": "Schakelaar",
     "app.model.mode[roller].label": "Functie",
     "app.model.mode[sensor].label": "Sensor",
+    "app.model.mode[rgb].label": "Kleur",
+    "app.model.mode[rgbw].label": "Kleur + Wit",
+    "app.model.mode[light].label": "Wit",
     "app.model.mode[color].label": "Kleur",
     "app.model.mode[white].label": "Wit",
     "app.model.mode[emeter].label": "E-Meter",
+    "app.model.mode[power_meter].label": "E-Meter",
+    "app.model.mode[triphase].label": "Triphase",
+    "app.model.mode[monophase].label": "Monophase",
     "app.model.mode[inputs_reader].label": "Invoer",
     "app.model.mode[thermostat].label": "Thermostaat",
 
@@ -151,6 +163,8 @@
     "app.alert-service.pin.label": "Voer pin in",
     "app.alert-service.pin-optional.label": "Voer pin in (optional)",
     "app.alert-service.pin-placeholder.label": "Pin",
+    "app.alert-service.bluetooth.header.label": "Bluetooth control",
+    "app.alert-service.bluetooth.message.label": "Met deze app-versie kan de Shelly Plus/Pro via Bluetooth worden verbonden. Dit betekent dat in het geval van een WLAN-storing, apparaten nog steeds via Bluetooth kunnen worden bediend met behulp van de app. Aangezien smartphones echter een limiet hebben op het aantal apparaten dat tegelijkertijd kan worden aangesloten, moet u Bluetooth alleen geactiveerd laten op de Shellys die absoluut noodzakelijk zijn!",
 
     "app.auth-service.login-success.label": "Inloggen geslaagd",
     "app.auth-service.login-failed.label" : "Inloggen mislukt!",
@@ -228,6 +242,6 @@
     "app.donate-service.donate-success.label": "Donatie succesvol verzonden. Dank u voor uw bijdrage!",
     "app.donate-service.donate-error.label": "Er heeft een onbekende fout plaatsgevonden!",
 
-    "app.device-info-service.unkown-device.label": "Onbekend apparaat '{{type}}' herkend, neem contact met mij op via e-mail"
-
+    "app.device-info-service.unkown-device.label": "Onbekend apparaat '{{type}}' herkend, neem contact met mij op via e-mail",
+    "app.device-info-service.added-network.label": "Stuur netwerkinformatie met succes naar het shelly-apparaat. U kunt nu zoeken en toevoegen"
 }

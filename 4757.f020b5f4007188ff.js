@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[4757],{4757:(l,r,e)=>{e.r(r),e.d(r,{FileServerWeb:()=>n});var s=e(467),t=e(9273);class n extends t.E_{constructor(){super({name:"FileServer",platforms:["web"]})}start(o){return(0,s.A)(function*(){return console.log("start",o),{ip:null}})()}stop(){return(0,s.A)(function*(){})()}}}}]);

@@ -6,7 +6,7 @@
     "app.component.welcome.creation.label": "Who created Shelly Home?",
     "app.component.welcome.creation-text.label": "<b>Shelly Home</b> is a cross platform app created by the software developer <b>Dirk Gausmann</b>. It is developed in his free time and aims to bring a better user experience to <b>Shelly</b> users.",
     "app.component.welcome.features.label": "What can Shelly Home do?",
-    "app.component.welcome.features-text.label": "<b>Shelly Home</b> is available on <b>Android, iOS, MacOS</b> and <b>Windows</b>. You can add, manage, update and control your <b>Shelly</b> devices aswell as highly customize how and what information you want to see.<br/>The app also does work without a user account and can directly access the <b>Shelly</b> devices located in the same network. Optionally the user can connect to its <b>Shelly Cloud</b> account, to be able to control the devices from anywhere.",
+    "app.component.welcome.features-text.label": "<b>Shelly Home</b> is available on <b>Smartphones, MacOS</b> and <b>Windows</b>. You can add, manage, update and control your <b>Shelly</b> devices aswell as highly customize how and what information you want to see.<br/>The app also does work without a user account and can directly access the <b>Shelly</b> devices located in the same network. Optionally the user can connect to its <b>Shelly Cloud</b> account, to be able to control the devices from anywhere.",
     "app.component.welcome.start.label": "Ready to start?",
     "app.component.welcome.start-text.label": "Use <b>Shelly Home</b> with or without a <b>Shelly Cloud</b> account",
     "app.component.welcome.skip-login.label": "Skip login",
@@ -23,12 +23,16 @@
     "app.component.dashboard.cancel.header.label": "Cancel",
     "app.component.dashboard.empty.label": "Drag and drop elements here",
     "app.component.dashboard.empty-list.label": "Please add a dashboard",
+    "app.component.dashboard.search-device.header.label": "Search existing devices",
+    "app.component.dashboard.add-device-wifi.header.label": "Add devices via wifi",
+    "app.component.dashboard.add-device-ble.header.label": "Add devices via bluetooth",
 
     "app.component.more.donate.label": "Donate",
     "app.component.more.system-theme.label": "System theme",
     "app.component.more.dark-theme.label": "Dark theme",
     "app.component.more.light-theme.label": "Light theme",
     "app.component.more.add-devices.label" : "Include devices",
+    "app.component.more.add-bt-devices.label": "Include bluetooth devices",
     "app.component.more.search-devices.label" : "Search devices",
     "app.component.more.update-devices.label": "Update devices",
     "app.component.more.language.label" : "Language",
@@ -56,6 +60,7 @@
     "app.component.roller-content.closed.label": "CLOSED",
     "app.component.roller-content.open.label": "OPEN",
 
+    "app.component.device-status.device-con-list[ble].label": "BLE",
     "app.component.device-status.device-con-list[local].label": "Local",
     "app.component.device-status.device-con-list[cloud].label": "Cloud",
     "app.component.device-status.device-con-list[sync].label": "Sync",
@@ -116,13 +121,20 @@
     "app.component.customize-graph.steps.label": "Steps",
     "app.component.customize-graph.beginAtZero.label": "Zero line",
     "app.component.customize-graph.compact.label": "Compact",
+    "app.component.customize-graph.scales.label": "Scale",
 
     "app.model.mode[relay].label": "Switch",
     "app.model.mode[roller].label": "Roller",
     "app.model.mode[sensor].label": "Sensor",
+    "app.model.mode[rgb].label": "Color",
+    "app.model.mode[rgbw].label": "Color + White",
+    "app.model.mode[light].label": "White",
     "app.model.mode[color].label": "Color",
     "app.model.mode[white].label": "White",
     "app.model.mode[emeter].label": "E-Meter",
+    "app.model.mode[power_meter].label": "E-Meter",
+    "app.model.mode[triphase].label": "Triphase",
+    "app.model.mode[monophase].label": "Monophase",
     "app.model.mode[inputs_reader].label": "Input",
     "app.model.mode[thermostat].label": "Thermostat",
 
@@ -151,6 +163,9 @@
     "app.alert-service.pin.label": "Provide pin",
     "app.alert-service.pin-optional.label": "Provide pin (optional)",
     "app.alert-service.pin-placeholder.label": "Pin",
+    "app.alert-service.bluetooth.header.label": "Bluetooth control",
+    "app.alert-service.bluetooth.message.label": "With this app version, the Shelly Plus/Pro can be connected via Bluetooth. This means that in the event of a WLAN failure, devices can still be controlled via Bluetooth by the app. However, since smartphones have a limit on how many devices can be connected at the same time, you should only leave Bluetooth activated on the Shellys that are absolutely necessary!",
+
 
     "app.auth-service.login-success.label": "Login successfull",
     "app.auth-service.login-failed.label" : "Login failed!",
@@ -228,5 +243,6 @@
     "app.donate-service.donate-success.label": "Donation send successfully. Thank you for your support!",
     "app.donate-service.donate-error.label": "An unkown error occured!",
 
-    "app.device-info-service.unkown-device.label": "Unknown device '{{type}}' recognized, please contact me via mail"
+    "app.device-info-service.unkown-device.label": "Unknown device '{{type}}' recognized, please contact me via mail",
+    "app.device-info-service.added-network.label": "Successfully send network information to the shelly device. You can now search and add it"
 }

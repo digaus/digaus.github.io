@@ -6,7 +6,7 @@
     "app.component.welcome.creation.label": "Von wem ist Shelly Home?",
     "app.component.welcome.creation-text.label": "<b>Shelly Home</b> ist eine Cross Platform App erstellt von dem Software Entwickler <b>Dirk Gausmann</b>. Die Anwendung wurde in seiner Freizeit entwickelt und zielt darauf ab, <b>Shelly</b> Nutzern eine bessere Benutzererfahrung zu bieten.",
     "app.component.welcome.features.label": "Was kann Shelly Home?",
-    "app.component.welcome.features-text.label": "<b>Shelly Home</b> ist unter <b>Android, iOS, MacOS</b> und <b>Windows</b> verfügbar. Sie können Ihre <b>Shelly</b> Geräte hinzufügen, verwalten, aktualisieren und steuern sowie stark anpassen, wie und welche Informationen Sie anzeigen möchten. <br/> Die App funktioniert auch ohne Benutzerkonto und kann direkt auf die <b>Shelly</b> Geräte im selben Netzwerk zugreifen. Optional kann der Benutzer eine Verbindung zu seinem <b>Shelly Cloud</b> Konto herstellen, um die Geräte von überall aus zu steuern.",
+    "app.component.welcome.features-text.label": "<b>Shelly Home</b> ist für <b>Smartphones, MacOS</b> und <b>Windows</b> verfügbar. Sie können Ihre <b>Shelly</b> Geräte hinzufügen, verwalten, aktualisieren und steuern sowie stark anpassen, wie und welche Informationen Sie anzeigen möchten. <br/> Die App funktioniert auch ohne Benutzerkonto und kann direkt auf die <b>Shelly</b> Geräte im selben Netzwerk zugreifen. Optional kann der Benutzer eine Verbindung zu seinem <b>Shelly Cloud</b> Konto herstellen, um die Geräte von überall aus zu steuern.",
     "app.component.welcome.start.label": "Bereit zu starten?",
     "app.component.welcome.start-text.label": "Nutze <b>Shelly Home</b> mit oder ohne eines <b>Shelly Cloud</b> Kontos",
     "app.component.welcome.skip-login.label": "Login überspringen",
@@ -23,13 +23,17 @@
     "app.component.dashboard.cancel.header.label": "Abbrechen",
     "app.component.dashboard.empty.label": "Elemente mit Drag and Drop hinzufügen",
     "app.component.dashboard.empty-list.label": "Füge ein Dashboard hinzu",
+    "app.component.dashboard.search-device.header.label": "Vorhandene Geräte suchen",
+    "app.component.dashboard.add-device-wifi.header.label": "Neue Geräte via Wifi hinzufügen",
+    "app.component.dashboard.add-device-ble.header.label": "Neue Geräte via Bluetooth hinzufügen",
 
     "app.component.more.donate.label": "Spenden",
     "app.component.more.system-theme.label": "System Theme",
     "app.component.more.dark-theme.label": "Dunkles Theme",
     "app.component.more.light-theme.label": "Helles Theme",
     "app.component.more.add-devices.label": "Geräte einbinden",
-    "app.component.more.search-devices.label": "Geräte suchen",
+    "app.component.more.add-bt-devices.label": "Bluetooth Geräte einbinden",
+    "app.component.more.search-devices.label": "Vorhandene Geräte suchen",
     "app.component.more.update-devices.label": "Geräte aktualisieren",
     "app.component.more.language.label": "Sprache",
     "app.component.more.report-error.label": "Problem melden",
@@ -56,6 +60,7 @@
     "app.component.roller-content.closed.label": "ZU",
     "app.component.roller-content.open.label": "AUF",
 
+    "app.component.device-status.device-con-list[ble].label": "BLE",
     "app.component.device-status.device-con-list[local].label": "Lokal",
     "app.component.device-status.device-con-list[cloud].label": "Cloud",
     "app.component.device-status.device-con-list[sync].label": "Sync",
@@ -65,7 +70,7 @@
 
     "app.component.device-add.mode.label": "Modus",
     "app.component.device-add.name.label": "Name",
-    "app.component.device-add.room_id.label": "Räume",
+    "app.component.device-add.room_id.label": "Raum",
     "app.component.device-add.relay_usage.label": "Nutzungs-Typ",
     "app.component.device-add.image.label": "Icon",
     "app.component.device-add.no_room_cons.label": "Eigenständiger Verbrauch",
@@ -116,13 +121,20 @@
     "app.component.customize-graph.steps.label": "Schritte",
     "app.component.customize-graph.beginAtZero.label": "Nulllinie",
     "app.component.customize-graph.compact.label": "Kompakt",
+    "app.component.customize-graph.scales.label": "Skala",
     
     "app.model.mode[relay].label": "Schalter",
     "app.model.mode[roller].label": "Rolladen",
     "app.model.mode[sensor].label": "Sensor",
+    "app.model.mode[rgb].label": "Farbe",
+    "app.model.mode[rgbw].label": "Farbe + Weiß",
+    "app.model.mode[light].label": "Weiß",
     "app.model.mode[color].label": "Farbe",
     "app.model.mode[white].label": "Weiß",
     "app.model.mode[emeter].label": "Stromsensor",
+    "app.model.mode[power_meter].label": "Stromsensor",
+    "app.model.mode[triphase].label": "Dreiphasig",
+    "app.model.mode[monophase].label": "Einphasig",
     "app.model.mode[inputs_reader].label": "Eingabe",
     "app.model.mode[thermostat].label": "Thermostat",
 
@@ -152,6 +164,8 @@
     "app.alert-service.pin.label": "Pin eingeben",
     "app.alert-service.pin-optinal.label": "Pin eingeben (optional)",
     "app.alert-service.pin-placeholder.label": "Pin",
+    "app.alert-service.bluetooth.header.label": "Bluetooth Steuerung",
+    "app.alert-service.bluetooth.message.label": "Mit dieser App Version können die Shelly Plus/Pro via Bluetooth verbunden werden. D.h. im Falle eines WLAN-Ausfalls, können Geräte noch über Bluetooth mit der App angesteuert werden. Da die Smartphones aber ein Limit haben, wieviele Geräte gleichzeitig verbunden werden können, sollten Sie Bluetooth nur bei den dringend notwendigen Shellys aktiviert lassen!",
 
     "app.auth-service.login-success.label": "Erfolgreich angemeldet",
     "app.auth-service.login-failed.label": "Anmeldung fehlgeschlagen!",
@@ -229,6 +243,7 @@
     "app.donate-service.donate-success.label": "Spende erfolgreich abgeschickt. Vielen Dank!",
     "app.donate-service.donate-error.label": "Ein unbekannter Fehler ist aufgetreten!",
 
-    "app.device-info-service.unkown-device.label": "Unbekanntes Gerät '{{type}}' erkannt, bitte kontaktieren Sie mich via Mail"
+    "app.device-info-service.unkown-device.label": "Unbekanntes Gerät '{{type}}' erkannt, bitte kontaktieren Sie mich via Mail",
+    "app.device-info-service.added-network.label": "Netzwerkinformationen erfolgreich an den Shelly gesendet. Sie können diesen jetzt suchen und hinzufügen"
 
 }

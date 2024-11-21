@@ -6,7 +6,7 @@
     "app.component.welcome.creation.label": "Qui a créé Shelly Home ?",
     "app.component.welcome.creation-text.label": "<b>Shelly Home</b> est une application multiplateforme créée par le développeur <b>Dirk Gausmann</b>. Elle est développée sur son temps libre et a pour but d'apporter une meilleure expérience aux utilisateurs de <b>Shelly</b>.",
     "app.component.welcome.features.label": "Que propose Shelly Home ?",
-    "app.component.welcome.features-text.label": "<b>Shelly Home</b> est disponible sur <b>Android, iOS, MacOS</b> et <b>Windows</b>. Vous pouvez ajouter, gérer, mettre à jour et contrôler vos périphériques <b>Shelly</b> ainsi que personnaliser les informations que vous souhaitez voir.<br/>Cette application fonctionne sans compte utilisateur et offre un accès direct aux périphériques <b>Shelly</b> situés dans le même réseau. L'utilisateur peut également, s'il le souhaite, se connecter à son compte <b>Shelly Cloud</b> afin de pouvoir piloter les périphériques de n'importe où.",
+    "app.component.welcome.features-text.label": "<b>Shelly Home</b> est disponible sur <b>Smartphones, MacOS</b> et <b>Windows</b>. Vous pouvez ajouter, gérer, mettre à jour et contrôler vos périphériques <b>Shelly</b> ainsi que personnaliser les informations que vous souhaitez voir.<br/>Cette application fonctionne sans compte utilisateur et offre un accès direct aux périphériques <b>Shelly</b> situés dans le même réseau. L'utilisateur peut également, s'il le souhaite, se connecter à son compte <b>Shelly Cloud</b> afin de pouvoir piloter les périphériques de n'importe où.",
     "app.component.welcome.start.label": "Prêt à commencer ?",
     "app.component.welcome.start-text.label": "Utiliser <b>Shelly Home</b> avec ou sans compte <b>Shelly Cloud</b>",
     "app.component.welcome.skip-login.label": "Passer l'authentification",
@@ -23,12 +23,16 @@
     "app.component.dashboard.cancel.header.label": "Annuler",
     "app.component.dashboard.empty.label": "Glisserr-déposer des éléments ici",
     "app.component.dashboard.empty-list.label": "Veuillez ajouter un tableau de bord",
+    "app.component.dashboard.search-device.header.label": "Rechercher des périphériques",
+    "app.component.dashboard.add-device-wifi.header.label": "Ajouter des périphériques",
+    "app.component.dashboard.add-device-ble.header.label": "Ajouter des périphériques bluetooth",
 
     "app.component.more.donate.label": "Faire un don",
-    "app.component.more.system-teme.label": "Thème du système",
+    "app.component.more.system-theme.label": "Thème du système",
     "app.component.more.dark-theme.label": "Thème sombre",
     "app.component.more.light-theme.label": "Thème clair",
     "app.component.more.add-devices.label" : "Ajouter des périphériques",
+    "app.component.more.add-bt-devices.label": "Ajouter des périphériques bluetooth",
     "app.component.more.search-devices.label" : "Rechercher des périphériques",
     "app.component.more.update-devices.label": "MAJ des périphériques",
     "app.component.more.language.label" : "Langue",
@@ -56,6 +60,7 @@
     "app.component.roller-content.closed.label": "FERME",
     "app.component.roller-content.open.label": "OUVERT",
 
+    "app.component.device-status.device-con-list[ble].label": "BLE",
     "app.component.device-status.device-con-list[local].label": "Local",
     "app.component.device-status.device-con-list[cloud].label": "Cloud",
     "app.component.device-status.device-con-list[sync].label": "Sync",
@@ -116,13 +121,20 @@
     "app.component.customize-graph.steps.label": "Pas",
     "app.component.customize-graph.beginAtZero.label": "Ligne zéro",
     "app.component.customize-graph.compact.label": "Compact",
+    "app.component.customize-graph.scales.label": "Escalader",
 
     "app.model.mode[relay].label": "Switch",
     "app.model.mode[roller].label": "Volet",
     "app.model.mode[sensor].label": "Capteur",
+    "app.model.mode[rgb].label": "Couleur",
+    "app.model.mode[rgbw].label": "Couleur + Blanc",
+    "app.model.mode[light].label": "Blanc",
     "app.model.mode[color].label": "Couleur",
     "app.model.mode[white].label": "Blanc",
     "app.model.mode[emeter].label": "Electromètre",
+    "app.model.mode[power_meter].label": "Electromètre",
+    "app.model.mode[triphase].label": "Triphase",
+    "app.model.mode[monophase].label": "Monophase",
     "app.model.mode[inputs_reader].label": "Entrée",
     "app.model.mode[thermostat].label": "Thermostat",
 
@@ -152,6 +164,8 @@
     "app.alert-service.pin.label": "Saisir code PIN",
     "app.alert-service.pin-optional.label": "Saisir code PIN (optionnel)",
     "app.alert-service.pin-placeholder.label": "PIN",
+    "app.alert-service.bluetooth.header.label": "Contrôle Bluetooth",
+    "app.alert-service.bluetooth.message.label": "Avec cette version de l'application, le Shelly Plus/Pro peut être connecté via Bluetooth. Cela signifie qu'en cas de panne du WLAN, les appareils peuvent toujours être contrôlés via Bluetooth avec l'application. Cependant, étant donné que les smartphones ont une limite sur le nombre d'appareils pouvant être connectés en même temps, vous ne devez laisser le Bluetooth activé sur les Shellys que si cela est absolument nécessaire!",
 
     "app.auth-service.login-success.label": "Connexion réussie",
     "app.auth-service.login-failed.label" : "Echec de connexion !",
@@ -229,6 +243,6 @@
     "app.donate-service.donate-success.label": "Don envoyé avec succès. Merci pour votre soutien !",
     "app.donate-service.donate-error.label": "Une erreur inconnue s'est produite !",
 
-    "app.device-info-service.unkown-device.label": "Périphérique inconnu '{{type}}' reconnu, veuillez me contacter par e-mail"
-
+    "app.device-info-service.unkown-device.label": "Périphérique inconnu '{{type}}' reconnu, veuillez me contacter par e-mail",
+    "app.device-info-service.added-network.label": "Envoyez avec succès les informations réseau à l'appareil shelly. Vous pouvez maintenant le rechercher et l'ajouter"
 }
